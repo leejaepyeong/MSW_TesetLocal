@@ -1,0 +1,12 @@
+@Logic
+script TestLogic extends Logic
+
+	@Sync
+	property number NewValue1 = 0
+
+	@ExecSpace("ServerOnly")
+	method void OnBeginPlay()
+		
+	end
+
+end
